@@ -46,7 +46,7 @@ public class Login {
         nameValuePairList.add(new BasicNameValuePair("type","0"));
         nameValuePairList.add(new BasicNameValuePair("append","1"));
         nameValuePairList.add(new BasicNameValuePair("username","langzeyu123@gmail.com"));
-        nameValuePairList.add(new BasicNameValuePair("password","Lang1024@"));
+        nameValuePairList.add(new BasicNameValuePair("password","*******"));
         try {
             httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairList));
             HttpResponse httpResponse = httpClient.execute(httpPost);
